@@ -2955,9 +2955,10 @@
 		}
 
 			#header h1 a {
-				color: blue;
+				color: white;
 				font-weight: 400;
 				border: 0;
+				text-decoration: underline;
 			}
 
 		#header nav {
