@@ -1,5 +1,4 @@
-@import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+
 
 /*
 	Alpha by HTML5 UP
@@ -10,6 +9,20 @@
 /* Reset */
 
 /* Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain) */
+
+@font-face {
+	font-family: Quintessential-Regular;
+	src: url("./../webfonts/Quintessential/Quintessential-Regular.ttf");
+}
+
+@font-face {
+	font-family: Lato-Regular;
+	src: url("./../webfonts/Lato/Lato-Regular.ttf");
+}
+
+* {
+	font-family: Lato-Regular;
+}
 
 	html, body, div, span, applet, object,
 	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -26,7 +39,6 @@
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		font: inherit;
 		vertical-align: baseline;
 	}
 
@@ -110,7 +122,6 @@
 
 	body, input, select, textarea {
 		color: #777;
-		font-family: "Source Sans Pro", sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
@@ -2184,7 +2195,6 @@
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
 				font-weight: 900;
 			}
 
@@ -3467,7 +3477,7 @@
 						text-rendering: auto;
 						line-height: 1;
 						text-transform: none !important;
-						font-family: 'Font Awesome 5 Free';
+
 						font-weight: 900;
 					}
 
@@ -3817,4 +3827,9 @@
 				padding: 2.5em 1em 3em 1em;
 			}
 
+	}
+
+
+#krakow {
+		font-family: Quintessential-Regular;
 	}
