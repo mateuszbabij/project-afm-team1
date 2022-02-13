@@ -1,5 +1,4 @@
-@import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+
 
 /*
 	Alpha by HTML5 UP
@@ -10,6 +9,20 @@
 /* Reset */
 
 /* Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain) */
+
+@font-face {
+	font-family: Quintessential-Regular;
+	src: url("./../webfonts/Quintessential/Quintessential-Regular.ttf");
+}
+
+@font-face {
+	font-family: Lato-Regular;
+	src: url("./../webfonts/Lato/Lato-Regular.ttf");
+}
+
+* {
+	font-family: Lato-Regular;
+}
 
 	html, body, div, span, applet, object,
 	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -26,7 +39,6 @@
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		font: inherit;
 		vertical-align: baseline;
 	}
 
@@ -110,7 +122,6 @@
 
 	body, input, select, textarea {
 		color: #777;
-		font-family: "Source Sans Pro", sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
@@ -2184,7 +2195,6 @@
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
 				font-weight: 900;
 			}
 
@@ -2362,84 +2372,6 @@
 				.box .image.featured:last-child img {
 					border-radius: 0 0 6px 6px;
 				}
-
-/* Icon */
-
-	.icon {
-		text-decoration: none;
-		border-bottom: none;
-		position: relative;
-	}
-
-		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			display: inline-block;
-			font-style: normal;
-			font-variant: normal;
-			text-rendering: auto;
-			line-height: 1;
-			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
-		}
-
-		.icon > .label {
-			display: none;
-		}
-
-		.icon:before {
-			line-height: inherit;
-		}
-
-		.icon.solid:before {
-			font-weight: 900;
-		}
-
-		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
-		}
-
-		.icon.major {
-			background: #666;
-			border-radius: 100%;
-			color: #ffffff;
-			cursor: default;
-			display: inline-block;
-			height: 5.5em;
-			line-height: 5.5em;
-			margin: 0 0 2em 0;
-			width: 5.5em;
-		}
-
-			.icon.major:before {
-				font-size: 2.5em;
-			}
-
-			.icon.major.accent1 {
-				background: #666;
-				color: #ffffff;
-			}
-
-			.icon.major.accent2 {
-				background: #e89980;
-				color: #ffffff;
-			}
-
-			.icon.major.accent3 {
-				background: #7fcdb8;
-				color: #ffffff;
-			}
-
-			.icon.major.accent4 {
-				background: #90b0ba;
-				color: #ffffff;
-			}
-
-			.icon.major.accent5 {
-				background: #e5cb95;
-				color: #ffffff;
-			}
 
 /* Image */
 
@@ -3558,7 +3490,7 @@ margin-left: 0;
 						text-rendering: auto;
 						line-height: 1;
 						text-transform: none !important;
-						font-family: 'Font Awesome 5 Free';
+
 						font-weight: 900;
 					}
 
@@ -3908,6 +3840,10 @@ margin-left: 0;
 				padding: 2.5em 1em 3em 1em;
 			}
 
+	}
+
+#krakow {
+		font-family: Quintessential-Regular;
 	}
 
 	 .napish{
